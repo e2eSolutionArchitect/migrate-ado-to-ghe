@@ -11,11 +11,20 @@
 - Install GitHub Enterprise Importer (GEI) extension
 
 ### Install GH extension
-#### Run below commands in GitHub CLI
+#### Run the below commands in GitHub CLI
 ```
 # Check the installed extension list
 gh extension list
 ```
+#### The extension for GEI (GitHub Enterprise Importer) is located [here](https://github.com/github/gh-gei)
+Please check the installation instruction for the extension [here](https://github.com/github/gh-gei#readme)
+
+```
+# To install gei
+gh extension install github/gh-gei
+```
+
+
 
 ### To be tested
 ```
