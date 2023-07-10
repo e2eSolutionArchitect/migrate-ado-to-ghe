@@ -32,7 +32,7 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - ## GitHub
  - Profile > Settings > Developer Settings > Personal access tokens
  
-## Post Migration checklist [click here](#)
+## Post Migration checklist [click here](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/post-migration.md)
 
 ## Tips
 - check the available commands for gh gei by running 'gh gei --help' or 'gh gei migrate-repo --help'
