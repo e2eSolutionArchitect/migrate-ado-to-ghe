@@ -10,10 +10,18 @@
 - Check GitHub CLI installation instructions [click here](https://github.com/cli/cli#readme)
 - Install GitHub Enterprise Importer (GEI) extension
 - Generate Personal Access Token (PAT) from source and target repositories. GitHub > Settings > Profile > Personal Access Token
+- If migrating from ADO to GHE then source PAT from ADO and target PAT from GHE
 - Set the privileges appropriately while creating the token. check required access [here](https://docs.github.com/en/migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/managing-access-for-github-enterprise-importer#required-roles-for-github)
 - set environment variables 'GH_SOURCE_PAT' (source PAT), 'GH_PAT' (target PAT)
 - These two variables can be passed with 'gh gei ' command but the best practice is to set as environment as a secure approach
 
+## Steps to create Personal Access Token (PAT) 
+- ## Azure DevOps
+- - 
+- ## GitHub Enterprise
+- - Profile > Settings > Developer Settings > Personal access tokens
+ 
+    
 ## Tips
 - check the available commands for gh gei by running 'gh gei --help' or 'gh gei migrate-repo --help'
 
