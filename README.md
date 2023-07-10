@@ -1,4 +1,7 @@
 # Migrate Azure DevOps to Github Enterprise
+
+Good to read [click here](https://github.com/github/gh-gei#readme)
+
 ## Objectives:
 - Migrate a single repository from Azure DevOps to Github Enterprise (GHE)
 - Migrate multiple repositories in batch from Azure DevOps to Github Enterprise (GHE)
