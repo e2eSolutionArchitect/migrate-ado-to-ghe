@@ -65,4 +65,4 @@ Check migration instructions here
 - [Multiple Organizations migration](#)
 
 Note: 
-- There is a size limit over which importer doesn't work. migration file size > (it may change over time)
+- There is a size limit over which importer doesn't work. migration file size > 10GB (it may change, please verify)
