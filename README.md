@@ -7,4 +7,4 @@
 
 # Preparation:
 - Download Github CLI [click here](https://cli.github.com/)
-- Check Github CLI installation instruction [click here](https://github.com/cli/cli#readme)
+- Check GitHub CLI installation instructions [click here](https://github.com/cli/cli#readme)
