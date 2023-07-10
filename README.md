@@ -9,6 +9,9 @@
 - Download Github CLI [click here](https://cli.github.com/)
 - Check GitHub CLI installation instructions [click here](https://github.com/cli/cli#readme)
 - Install GitHub Enterprise Importer (GEI) extension
+- Generate Personal Access Token (PAT) from source and target repositories
+- set environment variables 'GH_SOURCE_PAT' (source PAT), 'GH_PAT' (target PAT)
+- These two variables can be passed with 'gh gei ' command but the best practice is to set as environment as secure approach
 
 ### Install GH extension
 #### Run the below commands in GitHub CLI
@@ -22,6 +25,9 @@ Please check the installation instruction for the extension [here](https://githu
 ```
 # To install gei
 gh extension install github/gh-gei
+
+# verify installation
+gh extension list
 ```
 
 
