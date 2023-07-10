@@ -53,6 +53,10 @@ gh extension list
 # for LINUX system. Migrating ADO to GHE
 export ADO_PAT=##################
 export GH_PAT=##################
+
+# verify
+echo $ADO_PAT
+echo $GH_PAT
 ```
 
 ### To be tested
