@@ -67,8 +67,7 @@ echo $GH_PAT
 Check migration instructions here
 - [Single repo migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/single-repo-migration.md)
 - [Multiple repos migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/multiple-repos-migration.md)
-- [Single Organization migration](#)
-- [Multiple Organizations migration](#)
+- [Multiple Organizations migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/multiple-org-migration.md)
 
 Note: 
 - There is a size limit over which importer doesn't work. migration file size > 10GB (it may change, please verify)
