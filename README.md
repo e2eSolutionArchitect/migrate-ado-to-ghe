@@ -58,26 +58,11 @@ export GH_PAT=##################
 echo $ADO_PAT
 echo $GH_PAT
 ```
-
-
-### Migrating single repo ADO to GitHub
-
-```
-gh gei migrate-repo --ado-org "<ado-source-org-name>" \
---ado-team-project "<ado-source-project-name>" \
---ado-repo "<ado-source-repo-name>" \
---github-org "<target-org-name-in-github>" \
---github-repo "<unique-repo-name-to-be-created-in-github>"
-```
-
-### Migrating single repo GitHub to GitHub
-```
-gh gei migrate-repo --github-source-org <source-org-name> \
---github-target-org <target-org-name> \
---source-repo <source-repo-name> \
---target-repo <target-repo-name> \
---wait
-```
+Check migration instructions here
+- [Single repo migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/single-repo-migration.md)
+- [Multiple repos migration](#)
+- [Single Organization migration](#)
+- [Multiple Organizations migration](#)
 
 Note: 
 - There is a size limit over which importer doesn't work. migration file size > (it may change over time)
