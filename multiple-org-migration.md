@@ -3,3 +3,11 @@
 gh gei generate-script --github-org <github-target-org-name> \
 --output migrate_script.sh
 ```
+
+## For single org migration just mention ado-org
+
+```
+gh gei generate-script --github-org <github-target-org-name> \
+--ado-org <ado-source-org-name> \
+--output migrate_script.sh 
+```
