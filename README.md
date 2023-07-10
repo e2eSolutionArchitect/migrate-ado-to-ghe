@@ -17,9 +17,9 @@
 
 ## Steps to create Personal Access Token (PAT) 
 - ## Azure DevOps
-- - 
-- ## GitHub Enterprise
-- - Profile > Settings > Developer Settings > Personal access tokens
+ - User settings (top right corner second last icon) > Personal Access Tokens 
+- ## GitHub
+ - Profile > Settings > Developer Settings > Personal access tokens
  
     
 ## Tips
