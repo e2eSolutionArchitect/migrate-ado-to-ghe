@@ -37,6 +37,7 @@ gh extension list
 
 ### To be tested
 
+### Migrating single repo
 ```
 gh gei migrate-repo --ghes-api-url https://<api url> \
 --github-source-org <source-org-name> \
@@ -45,3 +46,6 @@ gh gei migrate-repo --ghes-api-url https://<api url> \
 --target-repo <target-repo-name> \
 --wait
 ```
+
+Note: 
+- There is a size limit over which importer doesn't work. migration file size > (it may change over time)
