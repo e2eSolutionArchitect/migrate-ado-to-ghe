@@ -6,3 +6,8 @@ gh gei generate-script --github-org <github-target-org-name> \
 --output migrate_script.sh \
 --repos-only
 ```
+The above 'repos-only' will only consider migration for repositories. 
+
+```
+
+```
