@@ -12,7 +12,9 @@
 - Generate Personal Access Token (PAT) from source and target repositories. GitHub > Settings > Profile > Personal Access Token
 - If migrating from ADO to GHE then source PAT from ADO and target PAT from GHE
 - Set the privileges appropriately while creating the token. check required access [here](https://docs.github.com/en/migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/managing-access-for-github-enterprise-importer#required-roles-for-github)
-- set environment variables 'GH_SOURCE_PAT' (source PAT), 'GH_PAT' (target PAT)
+- Set environment variables 'GH_SOURCE_PAT' or 'ADO_PAT' (source PAT), 'GH_PAT' (target PAT)
+- If migrating ADO to GitHub then ADO_PAT & GH_PAT
+- If migrating GitHub to GitHub then GH_SOURCE_PAT & GH_PAT
 - These two variables can be passed with 'gh gei ' command but the best practice is to set as environment as a secure approach
 
 ## Steps to create Personal Access Token (PAT) 
@@ -46,6 +48,12 @@ gh extension install github/gh-gei
 gh extension list
 ```
 
+## Set Environment variables
+```
+# for LINUX system. Migrating ADO to GHE
+export ADO_PAT=##################
+export GH_PAT=##################
+```
 
 ### To be tested
 
