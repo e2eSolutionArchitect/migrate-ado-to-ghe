@@ -14,5 +14,11 @@ gh gei generate-script --github-org <github-target-org-name> \
 - Similarly, if you don't mention 'repos-only' then it will consider every team projects and repos the PAT( Personal Access Token) has access to
 
 ```
+gh gei generate-script --github-org <github-target-org-name> \
+--output migrate_script.sh 
+```
+
+### Run the script
+```
 ./migrate_script.sh
 ```
