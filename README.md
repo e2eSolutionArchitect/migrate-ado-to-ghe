@@ -19,6 +19,7 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - If migrating ADO to GitHub then ADO_PAT & GH_PAT
 - If migrating GitHub to GitHub then GH_SOURCE_PAT & GH_PAT
 - These two variables can be passed with 'gh gei ' command but the best practice is to set as environment as a secure approach
+- **IMPORTANT** make the source repos READ ONLY to avoid any new change during migration
 
 ## Steps to create Personal Access Token (PAT) 
 - ## Azure DevOps
