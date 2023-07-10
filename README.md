@@ -32,7 +32,8 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - ## GitHub
  - Profile > Settings > Developer Settings > Personal access tokens
  
-    
+## Post Migration checklist [click here](#)
+
 ## Tips
 - check the available commands for gh gei by running 'gh gei --help' or 'gh gei migrate-repo --help'
 
