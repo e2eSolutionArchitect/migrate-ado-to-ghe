@@ -29,4 +29,7 @@ gh ado2gh generate-script --ado-org <ado-source-org-name> --github-org ORGNAME -
 gh gei generate-script --github-org <github-target-org-name>  --github-target-org <github-source-org-name> --output migrate_script.sh 
 ```
 
+## WAIT
+Have you received the below warning while generating the migration script?
+**[WARNING] CANNOT FIND GITHUB APP SERVICE CONNECTION IN ADO ORGANIZATION: e2esainstructor. You must install the Pipelines app in GitHub and connect it to any Team Project in this ADO Org first.**
 
