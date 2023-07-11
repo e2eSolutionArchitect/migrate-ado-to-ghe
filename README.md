@@ -20,7 +20,8 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - If migrating GitHub to GitHub then GH_SOURCE_PAT & GH_PAT
 - These two variables can be passed with 'gh gei ' command but the best practice is to set as environment as a secure approach
 - **IMPORTANT** make the ADO source repos READ ONLY to avoid any new change during migration
-  - Select ADO repository > Settings > Security tab > select the repos in the list and set 'Deny' in all drop-downs. 
+  - Select ADO repository > Settings > Security tab > select the repos in the list and set 'Deny' in all drop-downs.
+- Ensure the GitHub app [Azure pipeline](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/install-azure-pipeline-github-apps.md) is installed in github account. It is required to migrate ADO pipelines to GitHub.
 
 ## Steps to create Personal Access Token (PAT) 
 - ## Azure DevOps
