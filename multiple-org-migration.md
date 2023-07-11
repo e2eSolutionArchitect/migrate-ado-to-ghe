@@ -11,3 +11,7 @@ gh gei generate-script --github-org <github-target-org-name> \
 --ado-org <ado-source-org-name> \
 --output migrate_script.sh 
 ```
+
+```
+gh gei generate-script --github-source-org e2einstructor --github-target-org adomigration --output migrate_script.sh
+```
