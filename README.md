@@ -11,7 +11,7 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 # Preparation:
 - Download Github CLI [click here](https://cli.github.com/)
 - Check GitHub CLI installation instructions [click here](https://github.com/cli/cli#readme)
-- Install GitHub Enterprise Importer (GEI) extension
+- Install GitHub Enterprise Importer (GEI) extension and ado2gh extension
 - Generate Personal Access Token (PAT) from source and target repositories. GitHub > Settings > Profile > Personal Access Token
 - If migrating from ADO to GHE then source PAT from ADO and target PAT from GHE
 - Set the privileges appropriately while creating the token. check required access [here](https://docs.github.com/en/migrations/using-github-enterprise-importer/preparing-to-migrate-with-github-enterprise-importer/managing-access-for-github-enterprise-importer#required-roles-for-github)
@@ -49,6 +49,9 @@ Please check the installation instruction for the extension [here](https://githu
 ```
 # To install gei
 gh extension install github/gh-gei
+
+# To install ado2gh
+gh extension install github/gh-ado2gh
 
 # verify installation
 gh extension list
