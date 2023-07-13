@@ -24,7 +24,7 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - Ensure the GitHub app [Azure pipeline](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/install-azure-pipeline-github-apps.md) is installed in github account. It is required to migrate ADO pipelines to GitHub.
 
 ## Analyze migration
-Use the [migration analyzer tool](https://github.com/github/gh-migration-analyzer) to estimate and plan for the migration. 
+Use the [migration analyzer tool](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/migration-analyzer.md) to estimate and plan for the migration. 
 
 ## Steps to create Personal Access Token (PAT) 
 - ## Azure DevOps
