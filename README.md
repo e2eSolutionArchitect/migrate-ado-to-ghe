@@ -84,7 +84,7 @@ export GH_PAT=##################
 echo $ADO_PAT
 echo $GH_PAT
 ```
-Check migration instructions here
+## Check migration instructions here
 - [Single repo migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/single-repo-migration.md)
 - [Multiple repos migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/multiple-repos-migration.md)
 - [Multiple Organizations migration](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/multiple-org-migration.md)
