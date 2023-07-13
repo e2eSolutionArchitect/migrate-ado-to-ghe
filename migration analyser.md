@@ -1,3 +1,6 @@
+## Analyze migration
+Use the [migration analyzer tool](https://github.com/github/gh-migration-analyzer) to estimate and plan for the migration. 
+
 ```
 # Create a directory 
 mkdir ado-to-ghe
