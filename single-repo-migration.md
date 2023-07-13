@@ -1,7 +1,7 @@
 ### Migrating single repo ADO to GitHub
 
 ```
-gh gei migrate-repo --ado-org e2esainstructor \
+gh ado2gh migrate-repo --ado-org e2esainstructor \
 --ado-team-project <ado-src-project> --ado-repo <ado-src-repo> \
 --github-org <github-target-org-name> \
 --github-repo <github-target-repo-name>
