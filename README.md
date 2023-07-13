@@ -26,6 +26,13 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 ## Analyze migration
 Use the [migration analyzer tool](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/blob/main/migration-analyzer.md) to estimate and plan for the migration. 
 
+## Important:
+- Service hooks are not migrated from ADO, it needs to be recreated separately in GH.
+- Migration timing is largely based on the number of pull requests in a repository.
+- GitHub Enterprise Importer does not attempt to migrate repository permissions from ADO.
+- Approach separately. 1. Migrate repo from ADO to GH, 2. Migrate Azure Pipelines to GitHub Actions, 3. Migrate remaining assets (boards, artifacts) from ADO to GH
+
+
 ## Steps to create Personal Access Token (PAT) 
 - ## Azure DevOps
  - User settings (top right corner second last icon) > Personal Access Tokens
