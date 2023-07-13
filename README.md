@@ -8,6 +8,12 @@ Good to read [click here](https://github.com/github/gh-gei#readme)
 - Migrate ADO 'organization(s)', which contains multiple projects, repos, branches, tags, commits, code review comments,  and pipelines, to GitHub Enterprise (GHE)
 -----------------
 
+## Migration Approach:
+- Migrate repositories from ADO to GH
+- Migrate Azure Pipelines to GitHub Actions
+- Migrate remaining assets (boards, artifacts) from ADO to GitHub
+  
+-----------------
 # Preparation:
 - Download Github CLI [click here](https://cli.github.com/)
 - Check GitHub CLI installation instructions [click here](https://github.com/cli/cli#readme)
