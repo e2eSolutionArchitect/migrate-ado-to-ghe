@@ -1,6 +1,9 @@
 ## Analyze migration
 Use the [migration analyzer tool](https://github.com/github/gh-migration-analyzer) to estimate and plan for the migration. 
 
+**PRE-REQUISITE:** 
+GH_PAT and ADO_PAT env variables should be set
+
 ```
 # Create a directory 
 mkdir ado-to-ghe
