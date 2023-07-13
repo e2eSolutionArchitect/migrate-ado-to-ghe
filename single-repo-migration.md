@@ -6,7 +6,7 @@ gh gei migrate-repo --ado-org e2esainstructor \
 --github-org <github-target-org-name> \
 --github-repo <github-target-repo-name>
 ```
-NOTE: <github-target-repo-name> can't be any existing repo name under <github-target-org-name>
+NOTE: 'github-target-repo-name' can't be any existing repo name under 'github-target-org-name'
 
 ### Migrating single repo GitHub to GitHub
 ```
