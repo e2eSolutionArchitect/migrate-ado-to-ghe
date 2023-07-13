@@ -31,3 +31,9 @@ Project	Repository Name	Number Of Pull Requests
 e2eSA-demo	e2eSA-demo	0
 migrate-ado-ghe	migrate-ado-ghe	0
 ![image](https://github.com/e2eSolutionArchitect/migrate-ado-to-ghe/assets/8308302/58eee02b-d553-482e-9bdd-48ccb0ebc4bc)
+
+For GitHub to Github migration, Fetch Github Organization
+
+```
+node src/index.js GH-org -o <ado-org-name>
+```
